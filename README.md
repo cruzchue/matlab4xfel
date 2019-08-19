@@ -2,8 +2,7 @@
 
 
 **01_hdfManipulation**
-
-
+-----
 h5xfel2matrix.m : hdf file to 2D matrix. Useful for visualization.
 
 h5xfel2png.m  : creates a sequence of PNG images from H5 files
