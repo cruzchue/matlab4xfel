@@ -3,14 +3,14 @@
 XFEL data manipulation
 
 * 01_hdfManipulation
+
 =====================
 
 h5xfel2matrix.m : hdf file to 2D matrix. Useful for visualization.
 
 h5xfel2png.m  : creates a sequence of PNG images from H5 files
 
-hdf2mat.m : hdf file to matlab file.  All saved in disk (data in - data out).  Review the format b4 usage. 
-            
+hdf2mat.m : hdf file to matlab file.  All saved in disk (data in - data out).  Review the format b4 usage.             
             Exports 'y','yMask','axesBorders','indexFromSparce'.
 
 
