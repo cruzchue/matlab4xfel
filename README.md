@@ -54,7 +54,7 @@
 
 * *oneSigM2sigCell.m* : converts 2 column matrix (runNumber indexFromSparse) into 2 column cell ( fileName indexFromSparse ) 
 
-                    NOTE: may not be needed it if everything moved to a single H5 file. 
+   NOTE: may not be needed it if everything moved to a single H5 file. 
                           Keep it for now.
 
 
