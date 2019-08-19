@@ -24,9 +24,7 @@ panelsXFEL.m : visualize panels before assembly
 
 
 
-* 03_maskData
-
-==============
+**03_maskData**
 
 
 maskedHit.m : mask data
@@ -40,9 +38,8 @@ maskedCircularHit.m : mask data and circular selection
 
 
 
-* 04_splitData
+**04_splitData**
 
-===============
 
 splitOneFile.m : find indexes to split data
 
@@ -50,11 +47,7 @@ exportBlocks.m : uses splitOneFile.m, performs "splitManyFiles" and save them
 
 
 
-
-
-* 05_secondFilter
-
-==================
+**05_secondFilter**
 
 
 NOTE: first filter was applied in Benedikt's assembly script
@@ -68,9 +61,7 @@ plotOutliers.m : plot removed files,  add circle around threshold values
 
 
 
-* 06_removeSymProp
-
-===================
+**06_removeSymProp**
 
 mindex2sigM : convert mindex to 2-item matrix
 
