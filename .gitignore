@@ -1,0 +1,7 @@
+
+# old versions
+/90_legacy/*
+
+# scripts to run commands
+/91_runCommands/*
+
