@@ -59,13 +59,13 @@ NOTE: first filter was applied in Benedikt's assembly script
 
 **06_removeSymProp**
 -----------------------
-mindex2sigM : convert mindex to 2-item matrix
+* *mindex2sigM* : convert mindex to 2-item matrix
 
-sigM2mindex : convert 2-item matrix to mindex
+* *sigM2mindex* : convert 2-item matrix to mindex
 
-rmSym : erase from symmetrization matrix
+* *rmSym* : erase from symmetrization matrix
 
-rmRowASCII : erase items from a ASCII property file
+* *rmRowASCII* : erase items from a ASCII property file
 
 
 
