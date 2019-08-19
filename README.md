@@ -57,8 +57,7 @@
    NOTE: may not be needed it if everything moved to a single H5 file. 
                           Keep it for now.
 
-
-
+* *readTranslate.m*  : reads ASCII translate file and loads it in a CELL structure
 
 **06_removeSymProp**
 -----------------------
