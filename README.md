@@ -2,6 +2,8 @@
 
 
 
+
+
 * 01_hdfManipulation
 
 =====================
@@ -15,12 +17,16 @@ hdf2mat.m : hdf file to matlab file.  All saved in disk (data in - data out).  R
 
 
 
+
+
 * 02_visualization
 
 ===================
 
 
 panelsXFEL.m : visualize panels before assembly
+
+
 
 
 
@@ -38,6 +44,8 @@ maskedCircularHit.m : mask data and circular selection
 
 
 
+
+
 * 04_splitData
 
 ===============
@@ -45,6 +53,8 @@ maskedCircularHit.m : mask data and circular selection
 splitOneFile.m : find indexes to split data
 
 exportBlocks.m : uses splitOneFile.m, performs "splitManyFiles" and save them
+
+
 
 
 
@@ -59,6 +69,8 @@ NOTE: first filter was applied in Benedikt's assembly script
 defectiveSnapshots.m : remove files above threshold
 
 plotOutliers.m : plot removed files,  add circle around threshold values
+
+
 
 
 
