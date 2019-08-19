@@ -44,15 +44,17 @@
 
 
 
-**05_secondFilter**
+**05_signatures**
 -----------------------
-NOTE: first filter was applied in Benedikt's assembly script
 
+* *createSignature.m* : takes a ZOOM mat file containing "indexFromSparce" list.  
+                    Exports an ASCII file with file name and indexFromSparce.
 
-* *defectiveSnapshots.m* : remove files above threshold
+* *createTranslate.m* : writes a two-column ASCII file, first column is file name, second is abbreviation as uint64
 
-* *plotOutliers.m* : plot removed files,  add circle around threshold values
-
+* *oneSigM2sigCell.m* : converts 2 column matrix (runNumber indexFromSparse) into 2 column cell ( fileName indexFromSparse ) 
+                    NOTE: may not be needed it if everything moved to a single H5 file. 
+                          Keep it for now.
 
 
 
