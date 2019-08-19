@@ -1,12 +1,8 @@
 # XFEL
 
 
-
-
-
 **01_hdfManipulation**
 
-=====================
 
 h5xfel2matrix.m : hdf file to 2D matrix. Useful for visualization.
 
@@ -19,9 +15,7 @@ hdf2mat.m : hdf file to matlab file.  All saved in disk (data in - data out).  R
 
 
 
-* 02_visualization
-
-===================
+**02_visualization**
 
 
 panelsXFEL.m : visualize panels before assembly
