@@ -2,7 +2,7 @@
 
 
 **01_hdfManipulation**
----
+-----------------------
 
 h5xfel2matrix.m : hdf file to 2D matrix. Useful for visualization.
 
@@ -16,8 +16,7 @@ hdf2mat.m : hdf file to matlab file.  All saved in disk (data in - data out).  R
 
 
 **02_visualization**
-
-
+-----------------------
 panelsXFEL.m : visualize panels before assembly
 
 
@@ -25,8 +24,7 @@ panelsXFEL.m : visualize panels before assembly
 
 
 **03_maskData**
-
-
+-----------------------
 maskedHit.m : mask data
 
 runMaskedhit.m : apply script maskedHit.m to many files
@@ -39,8 +37,7 @@ maskedCircularHit.m : mask data and circular selection
 
 
 **04_splitData**
-
-
+-----------------------
 splitOneFile.m : find indexes to split data
 
 exportBlocks.m : uses splitOneFile.m, performs "splitManyFiles" and save them
@@ -48,8 +45,7 @@ exportBlocks.m : uses splitOneFile.m, performs "splitManyFiles" and save them
 
 
 **05_secondFilter**
-
-
+-----------------------
 NOTE: first filter was applied in Benedikt's assembly script
 
 
@@ -62,7 +58,7 @@ plotOutliers.m : plot removed files,  add circle around threshold values
 
 
 **06_removeSymProp**
-
+-----------------------
 mindex2sigM : convert mindex to 2-item matrix
 
 sigM2mindex : convert 2-item matrix to mindex
